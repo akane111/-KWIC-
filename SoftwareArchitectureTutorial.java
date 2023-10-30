@@ -34,7 +34,12 @@ public class SoftwareArchitectureTutorial extends JFrame {
         panel.add(methodComboBox);
         add(panel, BorderLayout.NORTH);
         add(new JScrollPane(resultTextArea), BorderLayout.CENTER);
+
+//        ImageIcon imageIcon = new ImageIcon("E:\\Temp\\2.png");
+//        JLabel imageLabel = new JLabel(imageIcon);
+//        add(imageLabel, BorderLayout.SOUTH);
     }
+
 
     private void processFile(String method) {
         // 根据选择的处理方法对指定的输入文件进行处理，并将结果显示在界面上
@@ -55,15 +60,27 @@ public class SoftwareArchitectureTutorial extends JFrame {
                 if (method.equals("主程序-子程序")) {
                     // 主程序-子程序处理逻辑
                     result = "使用主程序-子程序处理文件：" + content.toString()+"阅读文献:https://blog.csdn.net/weixin_43853097/article/details/110943379?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&utm_relevant_index=1";
+                    ImageIcon imageIcon = new ImageIcon("E:\\Temp\\1.png");
+                    JLabel imageLabel = new JLabel(imageIcon);
+                    add(imageLabel, BorderLayout.SOUTH);
                 } else if (method.equals("面向对象")) {
                     // 面向对象处理逻辑
                     result = "使用面向对象处理文件：" + content.toString()+"阅读文献:https://blog.csdn.net/weixin_43853097/article/details/110943379?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&utm_relevant_index=1";
+                    ImageIcon imageIcon = new ImageIcon("E:\\Temp\\2.png");
+                    JLabel imageLabel = new JLabel(imageIcon);
+                    add(imageLabel, BorderLayout.SOUTH);
                 } else if (method.equals("事件系统")) {
                     // 事件系统处理逻辑
-                    result = "使用事件系统处理文件：" + content.toString()+"阅读文献:https://blog.csdn.net/weixin_43853097/article/details/110943379?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&utm_relevant_index=1";
+                    result = "使用事件系统处理文件：" + content.toString()+"E:\\Temp\\3.png"+"阅读文献:https://blog.csdn.net/weixin_43853097/article/details/110943379?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&utm_relevant_index=1";
+                    ImageIcon imageIcon = new ImageIcon("E:\\Temp\\3.png");
+                    JLabel imageLabel = new JLabel(imageIcon);
+                    add(imageLabel, BorderLayout.SOUTH);
                 } else if (method.equals("管道-过滤器")) {
                     // 管道-过滤器处理逻辑
                     result = "使用管道-过滤器处理文件：" + content.toString()+"阅读文献:https://blog.csdn.net/weixin_43853097/article/details/110943379?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-110943379-blog-82871259.t5_download_50w&utm_relevant_index=1";
+                    ImageIcon imageIcon = new ImageIcon("E:\\Temp\\4.png");
+                    JLabel imageLabel = new JLabel(imageIcon);
+                    add(imageLabel, BorderLayout.SOUTH);
                 }
 
                 // 循环移位处理
